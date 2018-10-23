@@ -2,6 +2,8 @@
 [![Coverage Status](https://coveralls.io/repos/github/Cryptix720/tenax/badge.svg?branch=master)](https://coveralls.io/github/Cryptix720/tenax?branch=master)
 
 # Tenax
+![Image of tenax](https://octodex.github.com/images/tenax.png)
+# Tenax
 ````
 Universal NodeJs security monitoring lockup assessment
 
