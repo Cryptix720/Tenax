@@ -4,6 +4,7 @@
   "description": "Universal security monitoring tool",
   "main": "tenax.js",
   "scripts": {
+    "version" : "npm version",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
     "repository": {
