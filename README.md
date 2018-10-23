@@ -34,12 +34,16 @@ Tenax helps you  to defend your prestigious package's by activating you to find 
 
 <hr>
 
-## TODO:
+# TODO:
+
 [x] Find affected code and patch
+|
 [] User id rash
+|
 [] Files accessed and the kind of access.
+|
 [] Use of privileges.
-[] 
+
 <hr>
 
 ## API
