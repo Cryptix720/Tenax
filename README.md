@@ -15,7 +15,11 @@
 Universal NodeJs security monitoring lockup assessment
 
 ````
-## How to use
+## How to install
+
+## npm i tenax --save-dev ##
+
+## npm i tenax -g ##
 
 ````
 
