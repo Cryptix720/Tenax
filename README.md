@@ -11,6 +11,7 @@
 [![Requirements Status](https://requires.io/github/Cryptix720/tenax/requirements.svg?branch=master)](https://requires.io/github/Cryptix720/tenax/requirements/?branch=master)
 [![Known Vulnerabilities](https://snyk.io/test/github/Cryptix720/tenax/badge.svg)](https://snyk.io/test/github/Cryptix720/tenax)
 [![BCH compliance](https://bettercodehub.com/edge/badge/Cryptix720/tenax?branch=master)](https://bettercodehub.com/)
+[![DepShield Badge](https://depshield.sonatype.org/badges/Cryptix720/tenax/depshield.svg)](https://depshield.github.io)
 
 # Tenax
 ````
