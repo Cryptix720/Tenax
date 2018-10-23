@@ -1,7 +1,7 @@
 {
   "name": "tenax",
   "version": "1.0.0",
-  "description": "Universal security monitoring lockup assessment",
+  "description": "Universal NodeJs security monitoring lockup assessment",
   "main": "tenax.js",
   "scripts": {
     "version": "npm version",
@@ -9,7 +9,8 @@
     "test": "snyk test && jest",
     "coverage": "jest --coverage",
     "coveralls": "npm run coverage && cat ./coverage/lcov.info | coveralls",
-    "watch": "jest --watch"
+    "watch": "jest --watch",
+    "update": "npm update"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,9 @@
   },
   "directories": {
     "lib": "./lib"
+  },
+  "peerDependencies": {
+    "grunt": "*"
   },
   "dependencies": {
     "aproba": "~1.2.0",
@@ -35,12 +39,16 @@
     "npmlog": "~4.1.2",
     "pacote": "^9.1.0",
     "qw": "~1.0.1",
-    "snyk": "^1.104.2",
     "read-package-tree": "^5.2.1",
     "rimraf": "~2.6.2",
     "slide": "~1.1.6",
+    "snyk": "^1.104.2",
     "ssri": "^6.0.0",
-    "uuid": "^3.3.2"
+    "uuid": "^3.3.2",
+    "coveralls": "^2.10",
+    "karma-coverage": "^0.2",
+    "glob": "^4.0",
+    "log-driver": "^1.2"
   },
   "engines": {
     "node": ">=4",
@@ -63,7 +71,10 @@
     "@babel/preset-env": "^7.1.0",
     "jest": "^23.6.0",
     "require-inject": "^1.4.3",
-    "sprintf-js": "~1.1.1"
+    "sprintf-js": "~1.1.1",
+    "grunt": "*",
+    "grunt-cli": "*",
+    "nodeunit": "*"
   },
   "keywords": [
     "tenax",
