@@ -10,7 +10,9 @@
     "coverage": "jest --coverage",
     "coveralls": "npm run coverage && cat ./coverage/lcov.info | coveralls",
     "watch": "jest --watch",
-    "update": "npm update"
+    "update": "npm update",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -74,11 +76,11 @@
     "grunt": "*",
     "grunt-cli": "*",
     "nodeunit": "*",
-  "mocha": "~1.17.1",
-  "chai": "~1.9.0",
-  "sinon": "~1.8.0",
-  "istanbul": "~0.2.4",
-  "coveralls": "~2.7.1"
+    "mocha": "~1.17.1",
+    "chai": "~1.9.0",
+    "sinon": "~1.8.0",
+    "istanbul": "~0.2.4",
+    "coveralls": "~2.7.1"
   },
   "keywords": [
     "tenax",
@@ -104,5 +106,6 @@
     "npm"
   ],
   "author": "chris pro",
-  "license": "MIT"
+  "license": "MIT",
+  "snyk": true
 }
