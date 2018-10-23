@@ -10,6 +10,7 @@
 [![Test Coverage](https://api.codeclimate.com/v1/badges/7638fd1fa63346746c20/test_coverage)](https://codeclimate.com/github/Cryptix720/tenax/test_coverage)
 [![Requirements Status](https://requires.io/github/Cryptix720/tenax/requirements.svg?branch=master)](https://requires.io/github/Cryptix720/tenax/requirements/?branch=master)
 [![Known Vulnerabilities](https://snyk.io/test/github/Cryptix720/tenax/badge.svg)](https://snyk.io/test/github/Cryptix720/tenax)
+[![BCH compliance](https://bettercodehub.com/edge/badge/Cryptix720/tenax?branch=master)](https://bettercodehub.com/)
 
 # Tenax
 ````
