@@ -1,0 +1,45 @@
+::Tenax: High level system security monitoring::
+-------------------------------------------------
+
+1. Records of transactions executed by users in applications.(Access to authorized users*)
+|
+|
+2. Activation and de-activation of protection systems, such as anti-virus systems and intrusion
+   detection systems.
+|
+|
+3. Alarms raised by the access control system.
+|
+|
+4. Use of privileges.
+|
+|
+5. User IDs.
+|
+|
+6. Files accessed and the kind of access.
+|
+|
+7. Dates, times, and details of key events, for example, log-on and log-off.
+|
+|
+8. System activities.
+|
+|
+9. Use of system utilities and applications.
+|
+|
+10. Changes to system configuration.
+|
+|
+11. Records of successful and rejected data and other resource access attempts.
+|
+|
+12. Records of successful and rejected system access attempts.
+|
+|
+13. Device identity or location if possible and system identifier.
+|
+|
+14. Network addressees and protocols.
+ 
