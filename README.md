@@ -19,8 +19,8 @@ Universal NodeJs security monitoring lockup assessment
 
 > npm i tenax --save-dev
 > npm i tenax -g 
-OR
-git clone https://github.com/Cryptix720/tenax.git
+> OR
+> git clone https://github.com/Cryptix720/tenax.git
 
 ````
 
