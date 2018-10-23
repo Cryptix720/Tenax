@@ -1,16 +1,23 @@
 {
   "name": "tenax",
   "version": "1.0.0",
-  "description": "Universal security monitoring tool",
+  "description": "Universal security monitoring lockup assessment",
   "main": "tenax.js",
   "scripts": {
-    "version" : "npm version",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "version": "npm version",
+    "protect": "snyk protect",
+    "test": "snyk test && jest",
+    "coverage": "jest --coverage",
+    "coveralls": "npm run coverage && cat ./coverage/lcov.info | coveralls",
+    "watch": "jest --watch"
   },
-    "repository": {
-  "type" : "git",
-  "url" : "https://github.com/Cryptix720/tenax"
-},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Cryptix720/tenax"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
   "dependencies": {
     "aproba": "~1.2.0",
     "archy": "~1.0.0",
@@ -34,6 +41,18 @@
     "ssri": "^6.0.0",
     "uuid": "^3.3.2"
   },
+  "engines": {
+    "node": ">=4",
+    "iojs": ">=1.6.1",
+    "os": [
+      "darwin",
+      "linux",
+      "windows",
+      "ios",
+      "osx",
+      "android"
+    ]
+  },
   "paths": {
     "es6": "node_modules/requirejs-babel/es6",
     "babel": "node_modules/requirejs-babel/babel-4.6.6.min"
@@ -41,9 +60,9 @@
   "devDependencies": {
     "@babel/core": "^7.1.2",
     "@babel/preset-env": "^7.1.0",
+    "jest": "^23.6.0",
     "require-inject": "^1.4.3",
-    "sprintf-js": "~1.1.1",
-    "standard": "^11.0.1"
+    "sprintf-js": "~1.1.1"
   },
   "keywords": [
     "tenax",
@@ -59,7 +78,14 @@
     "scan",
     "monitoring",
     "shrinkwrap",
-    "json"
+    "json",
+    "detect",
+    "respond",
+    "protect",
+    "javascript",
+    "malwarehunter",
+    "details",
+    "npm"
   ],
   "author": "chris pro",
   "license": "MIT"
