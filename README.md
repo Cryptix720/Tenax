@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/Cryptix720/tenax.svg?branch=master)](https://travis-ci.org/Cryptix720/tenax)
+[![Coverage Status](https://coveralls.io/repos/github/Cryptix720/tenax/badge.svg?branch=master)](https://coveralls.io/github/Cryptix720/tenax?branch=master)
 
 # Tenax
 ````
