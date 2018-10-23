@@ -34,6 +34,12 @@ Tenax helps you  to defend your prestigious package's by activating you to find 
 
 # Examples:
 
+Commands     | 
+------------ | 
+npm tenax fix 
+npm tenax fix --package-lock-only
+
+
 <hr>
 
 # TODO:
