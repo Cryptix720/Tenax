@@ -17,6 +17,7 @@ Universal NodeJs security monitoring lockup assessment
 ````
 # About
 Tenax helps you  to defend your prestigious package's by activating you to find and patch affected code in dependencies that could cause data loss, service outages, unauthorized access to sensitive information, or other potential  issues.
+
 <hr>
 
 # How to install:
@@ -34,15 +35,17 @@ Tenax helps you  to defend your prestigious package's by activating you to find 
 # Examples:
 
 <hr>
+
 # TODO:
 
 - [x] Find affected code and patch
 
-- [] User id rash
+- [x] User id rash
 
-- [] Files accessed and the kind of access.
+- [ ] Files accessed and the kind of access.
 
-- [] Use of privileges.
+- [ ] Use of privileges.
+
 <hr>
 
 ## API
