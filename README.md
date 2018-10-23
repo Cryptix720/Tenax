@@ -15,7 +15,10 @@
 Universal NodeJs security monitoring lockup assessment
 
 ````
-# How to install
+# About
+Tenax helps you  to defend your prestigious package's by activating you to find and patch affected code in dependencies that could cause data loss, service outages, unauthorized access to sensitive information, or other potential  issues.
+
+# How to install:
 
 > npm i tenax --save-dev
 #
@@ -25,12 +28,11 @@ Universal NodeJs security monitoring lockup assessment
 #
 > git clone https://github.com/Cryptix720/tenax.git
 
-````
+<hr>
 
+# Examples:
 
-
-
-````
+<hr>
 ## TODO:
 * User id rash
 * Files accessed and the kind of access.
