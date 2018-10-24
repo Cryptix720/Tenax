@@ -2,7 +2,7 @@ language: node_js
 node_js:
  - "stable"
 script:
-  - npm run snyk-auth
+  - npm run snyk auth
   branches:
   only:
     - "master"
