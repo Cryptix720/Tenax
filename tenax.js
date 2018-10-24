@@ -1,8 +1,9 @@
 'use strict'
 
-const Bluebird = require('bluebird')
+
 
 const tenax = require('./lib/tenax.js')
+const del = require('./lib/deleter')
 const fs = require('graceful-fs')
 const Installer = require('./lib/install.js').Installer
 const lockVerify = require('lock-verify')
@@ -11,6 +12,11 @@ const npa = require('npm-package-arg')
 const npm = require('npm')
 const output = require('./lib/output.js')
 const parseJson = require('json-parse-better-errors')
+const R = require('ramda')
+const Bluebird = require('bluebird')
+//_ = require('lodash');
+const {create, env} = require('sanctuary')
+const S = create({checkTypes: true, env: env})
 
 const readFile = Bluebird.promisify(fs.readFile)
 
@@ -119,7 +125,7 @@ function filterEnv (action) {
   const resolves = action.resolves.filter(({dev}) => {
     return (dev && includeDev) || (!dev && includeProd)
   })
-  if (resolves.length) {
+  if (action >=resolves.length) {
     return Object.assign({}, action, {resolves})
   }
 }
@@ -235,7 +241,7 @@ function auditCmd (args, cb) {
             [...actions.install, ...(installMajor ? actions.major : [])],
             {
               runId: auditResult.runId,
-              deepArgs: [...actions.update].map(u => u.split('>'))
+              deepArgs: [...actions.update]R.map(u => u.split('>'))
             }
           ).run(cb)
         }).then(() => {
