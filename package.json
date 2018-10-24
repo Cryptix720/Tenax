@@ -6,10 +6,7 @@
   "scripts": {
     "version": "npm version",
      "protect": "snyk protect",
-    "test": "snyk test && jest",
-    "coverage": "jest --coverage",
-    "coveralls": "npm run coverage && cat ./coverage/lcov.info | coveralls",
-    "watch": "jest --watch"
+     "test": "tape test/*.js && tsc"
   },
   "repository": {
     "type": "git",
