@@ -1,12 +1,15 @@
 language:
   node_js
+  cache:
+  directories:
+    - node_modules
 install:
   - npm install -g codecov
- 
+  - npm install
 script:
-  - istanbul cover ./node_modules/mocha/bin/_mocha --reporter lcovonly -- -R spec
   - codecov
-   - snyk test
-    - snyk auth
-  
-  CODECOV_TOKEN="ffb9588d-71bd-4c80-ae84-bfc1ac3b8ae7"
+  - npm run snyk-auth
+  branches:
+  only:
+    - "master"
+
