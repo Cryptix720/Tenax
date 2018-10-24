@@ -1,13 +1,9 @@
-language:
-  node_js
-  cache:
-  directories:
-    - node_modules
-install:
-  - npm install -g codecov
-  - npm install
+language: node_js
+node_js:
+ - "stable"
+cache:
+  yarn: true
 script:
-  - codecov
   - npm run snyk-auth
   branches:
   only:
