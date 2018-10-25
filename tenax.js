@@ -241,7 +241,7 @@ function auditCmd (args, cb) {
             [...actions.install, ...(installMajor ? actions.major : [])],
             {
               runId: auditResult.runId,
-              deepArgs: [...actions.update]R.map(u => u.split('>'))
+              deepArgs: [...actions.update].map(u => u.split('>'))
             }
           ).run(cb)
         }).then(() => {
